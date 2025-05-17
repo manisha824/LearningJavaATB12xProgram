@@ -1,20 +1,23 @@
 package ex_02_Java_Basics_Part2;
 
 public class Table_of_5 {
-    public static void main(String[] args) {
-        int num = 5;
-        char new_line='\n';
+    // Task #1
+    //
+    //Table of 5 you need to print,  (only use the printF)
+    //int num = 5;
+    //
+    //5×1=5
+    //5×2 = 10
+    //….
+    //5×10 =50
 
-        System.out.printf("%d*1",num);
-        System.out.printf(new_line+"%d*2",num);
-        System.out.printf(new_line+"%d*3",num);
-        System.out.printf(new_line+"%d*4",num);
-        System.out.printf(new_line+"%d*5",num);
-        System.out.printf(new_line+"%d*6",num);
-        System.out.printf(new_line+"%d*7",num);
-        System.out.printf(new_line+"%d*8",num);
-        System.out.printf(new_line+"%d*9",num);
-        System.out.printf(new_line+"%d*10",num);
+    public static void main(String[] args) {
+        int num  = 5;
+        System.out.printf("%dx1=%d",num,num*1).println();
+        System.out.printf("%dx2=%d",num,num*2).println();
+        System.out.println("...");
+        System.out.printf("%dx9=%d",num,num*9).println();
+        System.out.printf("%dx10=%d",num,num*10).println();
     }
     }
 
