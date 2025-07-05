@@ -2,7 +2,7 @@ package Tasks;
 
 public class challenge27coding2 {
     // Custom exception class
-    class InvalidAgeException extends Exception {
+    static class InvalidAgeException extends Exception {
         public InvalidAgeException(String message) {
             super(message);
         }
